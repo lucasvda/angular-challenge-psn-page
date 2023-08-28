@@ -1,0 +1,15 @@
+.card-tag__conteiner {
+  width: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: auto;
+}
+.card-tag__conteiner > h1 {
+  font-family: sst;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0px 10px 2px 10px;
+  display: inline-block;
+}

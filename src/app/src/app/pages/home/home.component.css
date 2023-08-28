@@ -1,0 +1,10 @@
+.home-cards__conteiner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1440px;
+  margin: auto;
+}
+.home-cards__conteiner > app-card {
+  margin-bottom: 60px;
+}

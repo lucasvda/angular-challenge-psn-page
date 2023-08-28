@@ -1,0 +1,29 @@
+.card-info__conteiner{
+  width: 430px;
+  margin: auto;
+  padding: 4px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #bdbdbd;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: sst;
+  font-weight: 400;
+}
+.card-info__value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-left: 13px;
+  color: #636363;
+}
+.card-info__value::before {
+  content: '';
+  height: 19px;
+  width: 4px;
+  background-color: #1E769D;
+  position: absolute;
+  left: -11px;
+  top: 12px;
+}

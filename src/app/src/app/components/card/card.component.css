@@ -1,0 +1,19 @@
+.card__conteiner {
+  margin-top: 100px;
+  width: 450px;
+  height: 700px;
+  position: relative;
+}
+.card__conteiner > img {
+ height: 100%;
+}
+.card__conteiner > app-card-tag {
+  position: absolute;
+  bottom: 200px;
+  right: 10px;
+}
+.card__conteiner > app-card-info {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}

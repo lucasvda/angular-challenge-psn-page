@@ -1,0 +1,14 @@
+.card-img__conteiner {
+  width: 430px;
+  height: 700px;
+  margin: auto;
+  overflow: hidden;
+  border: 3px solid #4e4e4e;
+}
+.card-img__conteiner > img {
+  height: 100%;
+  transition: 0.8s;
+}
+.card-img__conteiner > img:hover {
+  transform: scale(1.1);
+}
